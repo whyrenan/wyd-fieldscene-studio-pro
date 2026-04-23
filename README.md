@@ -64,3 +64,6 @@ O editor conta com um sistema de resolucao com adaptacao proporcional, conversao
 ## Status
 
 Projeto funcional em evolucao continua, derivado de uma serie extensa de versoes incrementalmente melhoradas.
+
+<img width="1319" height="648" alt="image" src="https://github.com/user-attachments/assets/364db5a2-476f-44b4-884e-ebd7b233b08b" />
+
