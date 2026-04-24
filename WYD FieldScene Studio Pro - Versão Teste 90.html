@@ -7265,16 +7265,6 @@ dialog.style.cssText = `
                     this.updateWorkspacePanelButtonState();
                     return;
                 }
-
-                this.imagensEnabled = true;
-
-                const btn = document.getElementById('imagensToggleBtn');
-                if (btn) {
-                    btn.textContent = '🖼️ Imagens ON';
-                    btn.className = 'btn btn-success btn-small';
-                    btn.disabled = false;
-                }
-
                 this.updateWorkspacePanelButtonState();
 
                 if (!silent) {
@@ -7304,15 +7294,6 @@ dialog.style.cssText = `
 
                 this.currentWorkspacePanelId = panelId;
                 this.workspacePanelPreviewEnabled = true;
-                this.imagensEnabled = true;
-
-                const btn = document.getElementById('imagensToggleBtn');
-                if (btn) {
-                    btn.textContent = '🖼️ Imagens ON';
-                    btn.className = 'btn btn-success btn-small';
-                    btn.disabled = false;
-                }
-
                 this.updateWorkspacePanelButtonState();
                 this.renderCanvas();
                 this.updateStatus();
@@ -20244,3 +20225,5 @@ findTGAForTexture(textureInfo) {
 
 
 </html>
+
+
